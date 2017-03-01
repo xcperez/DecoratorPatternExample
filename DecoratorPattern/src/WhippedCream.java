@@ -17,7 +17,7 @@ public class WhippedCream extends CondimentDecorator{
 	
 	public double cost() {
 		
-		return 1.39 + beverage.cost();
+		return .20 + beverage.cost();
 		
 	}
 

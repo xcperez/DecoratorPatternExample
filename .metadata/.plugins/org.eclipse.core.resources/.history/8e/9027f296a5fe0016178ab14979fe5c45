@@ -1,0 +1,14 @@
+
+public class main {
+	
+	public static void main(String[]args){
+		
+		Beverage bev1 = new Espresso();
+		bev1 = new Mocha(bev1);
+		bev1 = new Mocha(bev1);
+		bev1 = new WhippedCream(bev1);
+		
+		System.out.println(bev1.getDescription() + ", " + bev1.cost());
+	}
+
+}
